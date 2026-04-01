@@ -9,11 +9,7 @@
             "type": "msedge",
             "request": "launch",
             "name": "Open Kontakt.html",
-<<<<<<< HEAD
-            "file": "C:\\Website-Mutter\\psh-at-work\\Kontakt.html"
-=======
             "file": "G:\\Code\\psh-at-work\\Aktuelles.html"
->>>>>>> fdea4fff43b3eb4cfe84642fa11c16b2dfb9503b
         }
     ]
 }
