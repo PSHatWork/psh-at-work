@@ -60,6 +60,23 @@
   #banner {
     text-align: center;
   }
+  .blog-entry {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+    padding: 16px;
+    text-align: left;
+  }
+  .blog-entry > a {
+    flex-basis: auto;
+    width: 100%;
+  }
+  .blog-entry > a img {
+    max-width: 100%;
+  }
+  .blog-entry > p {
+    width: 100%;
+  }
   #banner .block .buttons a:first-child {
     margin-left: 7px;
     margin-bottom: 10px;
