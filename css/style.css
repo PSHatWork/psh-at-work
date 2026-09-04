@@ -1077,6 +1077,10 @@ header .navbar {
   margin-top: 10px;
   color: #777;
 }
+/* =====================
+   Gallery Page
+   ===================== */
+
 #blog-post .content .btn-read {
   background: #EEF525;
   color: #fff;
@@ -1084,6 +1088,60 @@ header .navbar {
   font-size: 13px;
   margin-top: 15px;
   border-radius: 25px;
+}
+
+#gallerie {
+  padding: 100px 0;
+  background: #f1f1f1;
+}
+
+#gallerie .gallery-intro {
+  max-width: 780px;
+  margin: 0 auto 40px;
+}
+
+#gallerie .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+#gallerie .gallery-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#gallerie .gallery-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.12);
+}
+
+#gallerie .gallery-card a {
+  display: block;
+  color: inherit;
+}
+
+#gallerie .gallery-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+#gallerie .gallery-caption {
+  padding: 18px 18px 20px;
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+  min-height: 60px;
+}
+
+#gallerie .gallery-caption:empty {
+  display: none;
 }
 
 
@@ -1096,6 +1154,13 @@ header .navbar {
 
 #blog-left{
   padding: 130px 0;
+  #gallerie {
+    padding: 80px 0;
+  }
+
+  #gallerie .gallery-grid {
+    gap: 18px;
+  }
 }
 
 #blog-left .blog-img .col-md-12{
